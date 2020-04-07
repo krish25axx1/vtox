@@ -11,7 +11,7 @@
 #include <libhomescreen.hpp>
 #include <qlibwindowmanager.h>
 
-#include <map.h>
+
 
 int main(int argc, char *argv[])
 {
