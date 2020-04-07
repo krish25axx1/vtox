@@ -7,7 +7,7 @@ SOURCES = main.cpp
    
 
 CONFIG += link_pkgconfig
-PKGCONFIG += PKGCONFIG += libhomescreen qlibwindowmanager qtappfw
+PKGCONFIG += libhomescreen qlibwindowmanager qtappfw
 
 RESOURCES += \
     v2x.qrc 
