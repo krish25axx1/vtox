@@ -44,8 +44,7 @@ int main(int argc, char *argv[])
         bindingAddress.setQuery(query);
         QQmlContext *context = engine.rootContext();
         context->setContextProperty(QStringLiteral("bindingAddress"), bindingAddress);
-        Map *map = new Map(bindingAddress, context);
-        context->setContextProperty("v2x", map);
+      
 
         LibHomeScreen* hs = new LibHomeScreen();
         QLibWindowmanager* qwm = new QLibWindowmanager();
