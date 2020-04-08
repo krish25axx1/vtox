@@ -9,7 +9,7 @@
 #include <QtQuickControls2/QQuickStyle>
 #include <QQuickWindow>
 #include <libhomescreen.hpp>
-#include <qlibwindowmanager.h>
+#include <qlibwindowmanager.h
 
 
 
