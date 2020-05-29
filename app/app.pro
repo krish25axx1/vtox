@@ -1,8 +1,5 @@
 TARGET = v2x
-
-QT = quickcontrols2 websockets
-
-
+QT = quick qml aglextras quickcontrols2
 
 
 
@@ -10,13 +7,10 @@ SOURCES = main.cpp
    
 
 CONFIG += link_pkgconfig
-
-PKGCONFIG += libhomescreen qlibwindowmanager  libafbwsc
+PKGCONFIG += libhomescreen qlibwindowmanager 
 
 RESOURCES += \
     v2x.qrc 
     
 
 include(app.pri)
-
-
